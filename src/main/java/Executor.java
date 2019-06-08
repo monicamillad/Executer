@@ -25,6 +25,7 @@ public class Executor {
             if( queueManager.getTaskAppliers()[i].getTasks().isEmpty() ){
 
                 queueManager.getTaskAppliers()[i].getTasks().add(task);
+
                 return;
             }
         }
@@ -32,7 +33,12 @@ public class Executor {
         queueManager.getPendingTasks().add(task);
     }
 
-    public static void main(String[] args){
+    public void terminate(){
+        queueManager.terminate();
+        queueManager.interrupt();
+    }
+
+    public static void main(String[] args) throws InterruptedException {
 
         Executor executor = new Executor();
 
@@ -71,6 +77,12 @@ public class Executor {
         executor.applyTask(supplier1,consumer);
         executor.applyTask(supplier2,consumer);
         executor.applyTask(supplier3,consumer);
+
+        Thread.sleep(4000);
+
+        executor.terminate();
+
+        System.out.println("Finished !");
     }
 }
 

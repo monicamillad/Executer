@@ -28,7 +28,7 @@ public class QueueManager extends Thread {
     @Override
     public void run(){
 
-        while( true ){
+        while( !this.isInterrupted() ){
 
             while( !pendingTasks.isEmpty() ){
 
@@ -45,6 +45,12 @@ public class QueueManager extends Thread {
                     }
                 }
             }
+        }
+    }
+
+    public void terminate(){
+        for( int i=0 ; i<Executor.NUM_OF_THREADS ; i++ ){
+            taskAppliers[i].interrupt();
         }
     }
 }

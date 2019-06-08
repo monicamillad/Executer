@@ -14,11 +14,11 @@ public class TaskApplier extends Thread {
     }
 
     @Override
-    public void run(){ System.out.println("i am in ");
+    public void run(){
 
-        while(true){
+        while( !this.isInterrupted() ){
 
-            if( !tasks.isEmpty() ){
+            while( !tasks.isEmpty() ){
 
                 System.out.println(this.getName());
 
