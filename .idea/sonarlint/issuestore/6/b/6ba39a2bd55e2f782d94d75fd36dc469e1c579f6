@@ -1,0 +1,12 @@
+
+V
+squid:S1063"9Replace this use of System.out or System.err by a logger.(Ìº¼ö8‹Ò–¾³-
+Qsquid:S14815".Remove this unused "supplier2" local variable.(‰Éúÿÿÿÿ8„¤˜¾³-
+dsquid:S2142B"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8£ğ˜¾³-
+Fsquid:S1148-"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8€Ğ¾³-
+Msquid:S16113"/Remove the parentheses around the "s" parameter(Ìº¼ö8ˆÚ•¾³-
+Fsquid:S1148C"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8£ğ˜¾³-
+dsquid:S21428"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8„¤˜¾³-
+Lsquid:S1481?".Remove this unused "supplier3" local variable.(Ì£ƒÒ8£ğ˜¾³-
+dsquid:S2142,"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8€Ğ¾³-
+Fsquid:S11489"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8„¤˜¾³-
