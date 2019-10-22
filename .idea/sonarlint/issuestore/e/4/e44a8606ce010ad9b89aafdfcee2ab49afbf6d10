@@ -1,0 +1,25 @@
+
+U
+squid:S106R"9Replace this use of System.out or System.err by a logger.(›öçt8²²Ï—ß-
+Fsquid:S11484"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ÿ–àÕ¼-
+dsquid:S2142'"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ÿ–àÕ¼-
+8squid:S1220""Move this file to a named package.8´—¸¾-
+Msquid:S1611."/Remove the parentheses around the "s" parameter(Ìº¼ö8Ÿ–àÕ¼-
+Fsquid:S1148("#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ÿ–àÕ¼-
+V
+squid:S106N"9Replace this use of System.out or System.err by a logger.(Ôó©û8Âï–ÇÂ-
+Fsquid:S1148>"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ8Ÿ–àÕ¼-
+V
+squid:S106."9Replace this use of System.out or System.err by a logger.(Ìº¼ö8Ÿ–àÕ¼-
+dsquid:S21423"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ÿ–àÕ¼-
+V
+squid:S106c"9Replace this use of System.out or System.err by a logger.(üŸ¢ª8êÞÍ—ß-
+nsquid:CommentedOutCodeLineD"<This block of commented-out lines of code should be removed.(—¼Ûµüÿÿÿÿ8…ŒÍŒÁ-
+U
+squid:S106"9Replace this use of System.out or System.err by a logger.(›öçt8ýõææ¾-
+dsquid:S2142="FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8Ÿ–àÕ¼-
+[
+squid:S106"9Replace this use of System.out or System.err by a logger.(¿æ·Žûÿÿÿÿ8Ùõçæ¾-
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(Ôó©û8öûßæ¾-
+isquid:CommentedOutCodeLineF"<This block of commented-out lines of code should be removed.(ûŠÁÃ8…ŒÍŒÁ-
