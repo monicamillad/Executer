@@ -71,15 +71,15 @@ public class Executor {
             public boolean hasNext() {
 
                 if (finishedTasksQueue.isEmpty()) {
-                    isRunning = false;
+                    return false;
                 } else {
                     Task task = finishedTasksQueue.peek();
-                    if (Objects.nonNull(task) && task instanceof TerminatingTask) {
-                        isRunning = false;
+                    if (!isRunning || (Objects.nonNull(task) && task instanceof TerminatingTask)) {
+                        return false;
                     }
                 }
 
-                return isRunning;
+                return true;
             }
 
             @Override
@@ -138,6 +138,7 @@ public class Executor {
     public void terminate () {
         terminateAllAppliers();
         finishedTasks.onCompleted();
+        isRunning = false;
         TerminatingTask terminatingTask = new TerminatingTask();
         finishedTasksQueue.add(terminatingTask);
     }

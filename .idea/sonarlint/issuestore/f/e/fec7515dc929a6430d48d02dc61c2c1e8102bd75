@@ -1,8 +1,8 @@
 
 Hsquid:S30103"*Remove this assignment of "finishedTasks".(Âñé‹8ä«—ß-
-Tsquid:S1068"1Remove this unused "maxNumOfTasks" private field.(Èä„ùÿÿÿÿ8À€²ÇÂ-
 Msquid:S30105"/Remove this assignment of "finishedTasksQueue".(™éñû8²­¦—ß-
-usquid:S3776B"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÿ€Èûûÿÿÿÿ8¯·±˜ß-
-dsquid:S2142\"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÁÏª˜ß-
-Fsquid:S1148]"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÁÏª˜ß-
+Tsquid:S1068"1Remove this unused "maxNumOfTasks" private field.(Èä„ùÿÿÿÿ8À€²ÇÂ-
+usquid:S3776B"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(ÿ€Èûûÿÿÿÿ8¯·±˜ß-
 ysquid:S1488Z"\Immediately return this expression instead of assigning it to the temporary variable "task".(ÚŒùM8ÁÏª˜ß-
+Fsquid:S1148]"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ÁÏª˜ß-
+dsquid:S2142\"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8ÁÏª˜ß-
